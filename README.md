@@ -1,9 +1,13 @@
 # Puripat Rattanapupetch — Web Portfolio
 
-This folder is the static website prepared for GitHub Pages. Open `index.html` locally or publish the repository with GitHub Pages.
+A static bilingual portfolio website for GitHub Pages.
 
-## Privacy review
+## Publish the website
 
-The public-ready copy omits screenshots that expose residents' names, home addresses, national ID numbers, ages, welfare status, claimant records, uploaded evidence, or live spreadsheet rows. The original project folder remains unchanged. Some project screenshots have been replaced with neutral workflow diagrams.
+In this repository, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. The workflow in `.github/workflows/deploy.yml` will publish the site after the next push. The expected URL is https://ternpuripat.github.io/portfolio/.
 
-The site includes the owner's profile photo and `resume.pdf`, which contains the owner's contact details for recruitment. Review those before making this repository public.
+## Privacy
+
+This public copy omits screenshots that show residents' names, addresses, national ID numbers, ages, welfare status, claimant records, uploaded evidence, or live spreadsheet rows. Neutral workflow diagrams replace screenshots that contained those records.
+
+This repository is public and includes the owner's profile photo and resume with contact details for recruitment.
